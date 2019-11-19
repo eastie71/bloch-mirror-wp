@@ -1,0 +1,25 @@
+{
+    "type": "project",
+    "config": {
+        "vendor-dir": "content/vendor"
+    },
+    "extra": {
+        "wordpress-install-dir": "wp",
+        "installer-paths": {
+            "content/plugins/{$name}/": ["type:wordpress-plugin"],
+            "content/themes/{$name}/": ["type:wordpress-theme"]
+        }
+    },
+    "require": {
+        "johnpbloch/wordpress": ">=5.1",
+        "wpackagist-plugin/wp-super-cache": "1.6.*",
+        "wpackagist-plugin/bbpress": "2.5.*",
+        "wpackagist-theme/twentynineteen": "*"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url" : "https://wpackagist.org"
+        }
+    ]
+}

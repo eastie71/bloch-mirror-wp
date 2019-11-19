@@ -26,6 +26,7 @@ $port = ($_SERVER["SERVER_PORT"] == "80") ? "" : (":".$_SERVER["SERVER_PORT"]);
 define('WP_CONTENT_URL', $protocol."://".$_SERVER['SERVER_NAME'].$port.'/content');
 ```
 - Modify the usual "DB_NAME", "DB_USER", and "DB_PASSWORD" to match your database (as from created above)
-- Now 2 options:
-  - Load up your WP site by going to the URL + /wp eg. http://domain.com/wp
-  - Setup WP as new site - ie. Create the admin user and login
+- Load up your WP site in your broswer by going to the URL + eg. http://domain.com
+- Setup WP as new site - ie. Create the admin user and login
+- On WP dashboard change the SITE URL to REMOVE the /wp - so that you won't have to go to http://domain.com/wp for home URL
+- AND YOU ARE DONE - A sample WP site with a couple of random plugins already installed!

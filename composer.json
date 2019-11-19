@@ -14,7 +14,7 @@
         "johnpbloch/wordpress": ">=5.1",
         "wpackagist-plugin/wp-super-cache": "1.6.*",
         "wpackagist-plugin/bbpress": "2.5.*",
-        "wpackagist-theme/twentynineteen": "*"
+        "wpackagist-theme/twentytwenty": "*"
     },
     "repositories": [
         {

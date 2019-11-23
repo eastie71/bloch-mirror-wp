@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c58de1b6866342e330351bb99848356d",
+    "content-hash": "38d9b9b5e3c3610a55752ea09dbe12e0",
     "packages": [
         {
             "name": "composer/installers",
@@ -257,40 +257,76 @@
             "time": "2018-11-09T20:10:38+00:00"
         },
         {
-            "name": "wpackagist-plugin/bbpress",
-            "version": "2.5.14",
+            "name": "wpackagist-plugin/advanced-custom-fields",
+            "version": "5.8.7",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/bbpress/",
-                "reference": "tags/2.5.14"
+                "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
+                "reference": "tags/5.8.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/bbpress.2.5.14.zip"
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.8.7.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/bbpress/"
+            "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
         },
         {
-            "name": "wpackagist-plugin/wp-super-cache",
-            "version": "1.6.9",
+            "name": "wpackagist-plugin/contact-form-7",
+            "version": "5.1.5",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-super-cache/",
-                "reference": "tags/1.6.9"
+                "url": "https://plugins.svn.wordpress.org/contact-form-7/",
+                "reference": "tags/5.1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-super-cache.1.6.9.zip"
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.1.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-super-cache/"
+            "homepage": "https://wordpress.org/plugins/contact-form-7/"
+        },
+        {
+            "name": "wpackagist-plugin/manual-image-crop",
+            "version": "1.12",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/manual-image-crop/",
+                "reference": "tags/1.12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/manual-image-crop.1.12.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/manual-image-crop/"
+        },
+        {
+            "name": "wpackagist-plugin/regenerate-thumbnails",
+            "version": "3.1.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/regenerate-thumbnails/",
+                "reference": "tags/3.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/regenerate-thumbnails.3.1.2.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/regenerate-thumbnails/"
         },
         {
             "name": "wpackagist-theme/twentytwenty",

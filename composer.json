@@ -12,8 +12,10 @@
     },
     "require": {
         "johnpbloch/wordpress": ">=5.1",
-        "wpackagist-plugin/wp-super-cache": "1.6.*",
-        "wpackagist-plugin/bbpress": "2.5.*",
+        "wpackagist-plugin/advanced-custom-fields": "*",
+        "wpackagist-plugin/contact-form-7": "*",
+        "wpackagist-plugin/manual-image-crop": "*",
+        "wpackagist-plugin/regenerate-thumbnails": "*",
         "wpackagist-theme/twentytwenty": "*"
     },
     "repositories": [

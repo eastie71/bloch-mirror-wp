@@ -1,9 +1,11 @@
 # bloch-mirror-wp
 Bloch Mirror Wordpress Empty Site setup
 Thanks to https://www.smashingmagazine.com/2019/03/composer-wordpress/
+John Bloch supplies an unofficial version of Wordpress core package.
 
 A very simple repo example for setting up a new Wordpress site with minimum code.
-This makes use of the Composer PHP package installer for Wordpress CORE and Wordpress PLUGINS, and default THEMES
+This makes use of the Composer PHP package installer for Wordpress CORE (from John Bloch) and Wordpress PLUGINS, and default THEME
+This contains the core plugins I used for my "portfolio" site https://github.com/eastie71/portfolio and uses the "twentytwenty" theme.
 
 Instructions for setting up a NEW WP site using this REPO:
 - Clone this repo

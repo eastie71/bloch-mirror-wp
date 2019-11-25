@@ -1,13 +1,13 @@
 {
     "type": "project",
     "config": {
-        "vendor-dir": "content/vendor"
+        "vendor-dir": "app/wp-content/vendor"
     },
     "extra": {
-        "wordpress-install-dir": "wp",
+        "wordpress-install-dir": "app/wp",
         "installer-paths": {
-            "content/plugins/{$name}/": ["type:wordpress-plugin"],
-            "content/themes/{$name}/": ["type:wordpress-theme"]
+            "app/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+            "app/wp-content/themes/{$name}/": ["type:wordpress-theme"]
         }
     },
     "require": {
@@ -15,8 +15,7 @@
         "wpackagist-plugin/advanced-custom-fields": "*",
         "wpackagist-plugin/contact-form-7": "*",
         "wpackagist-plugin/manual-image-crop": "*",
-        "wpackagist-plugin/regenerate-thumbnails": "*",
-        "wpackagist-theme/twentytwenty": "*"
+        "wpackagist-plugin/regenerate-thumbnails": "*"
     },
     "repositories": [
         {
